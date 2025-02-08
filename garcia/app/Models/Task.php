@@ -10,5 +10,5 @@ class Task extends Model
     use HasFactory;
 
     // Allow mass assignment for these fields
-    protected $fillable = ['title', 'description', 'is_completed'];
+    protected $table = 'tasks';
 }
